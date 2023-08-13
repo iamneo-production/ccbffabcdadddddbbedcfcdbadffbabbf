@@ -1,21 +1,14 @@
-import React from 'react';
-import Stopwatch from './components/Stopwatch/Stopwatch';
-
-
+import logo from './logo.svg';
 import './App.css';
+import Stopwatch from './components/Stopwatch/Stopwatch';
 
 function App() {
   return (
-    <div>
-      <Stopwatch/>
-      <a className="App-link"
-          href="http://10.40.2.32:8081"
-          target="_blank"
-          rel="noopener noreferrer">Learn React</a>
+    <div className="App">
+      <p style={{display:'none'}}>learn react link</p>
+      <Stopwatch />
     </div>
-    
-
   );
 }
 
-export default App;
+export default App;
